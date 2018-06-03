@@ -1,0 +1,25 @@
+.Navbar {
+	background-color: black;
+
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 85px;
+		border: 1px solid white;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		width: 100%;
+		text-align: center;
+	}
+
+}

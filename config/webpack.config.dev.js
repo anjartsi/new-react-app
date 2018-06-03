@@ -84,7 +84,8 @@ module.exports = {
     // for React Native Web.
     extensions: ['.web.js', '.mjs', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      
+      // use the @ to import from the src directory
+      '@': path.resolve('src'),
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
@@ -165,7 +166,7 @@ module.exports = {
                 options: {
                   importLoaders: 1,
                   modules: true,
-                  localIdentName: '[path]___[name]__[local]___[hash:base64:5]'
+                  localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
                 },
               },
               {

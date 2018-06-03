@@ -1,6 +1,11 @@
 ## What is this?
-This is the backbone of a simple React app, with most of the most common tools added and configured.
+This is the backbone of a simple React app, with most of the most common tools added and configured. 
 
+## Tools 
+1. [Redux](https://redux.js.org/): to keep the app's state localized to a single store.
+2. [React CSS Modules](https://github.com/gajus/react-css-modules): to modularize css/scss files so that each component can have its own style without overly lengthy class names.
+3. [SASS](https://sass-lang.com/): to make styling less painful
+4. [Absolute Path for imports](https://medium.com/@kkomaz/another-solution-to-absolute-path-setup-in-create-react-app-cccb38d8eea8): to import files using absolute paths, use `import file from '@/file'` where ` @ ` refers to the `src/` directory
 
 ## Available Scripts
 
