@@ -23,7 +23,7 @@ const mapDispatchtoProps = (dispatch) => {
 class Home extends Component {
     render() {
         return (
-            <div className={styles.Home}>
+            <div styleName='Home'>
                 <h1> Home Page </h1>
                 <div>
                     <button onClick={this.props.decrement}> &minus; </button>

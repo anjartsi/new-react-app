@@ -5,11 +5,13 @@ import styles from './Login.scss'
 class Login extends Component {
     render() {
         return (
-            <div className={styles.Login}>
+            <div styleName='Login'>
                 <h1> Login Page</h1>
             </div>
         );
     }
 }
 
-export default CSSModules(Login, styles);
+Login = CSSModules(Login, styles);
+
+export default Login
